@@ -23,3 +23,10 @@ body {
     object-fit: cover;
     opacity: 0.5;
 }
+
+/* Company Logo */
+@media only screen and (max-width: 991px) {
+    #company-logo {
+        display: none;
+    }
+}
