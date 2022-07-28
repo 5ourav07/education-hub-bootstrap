@@ -24,6 +24,31 @@ body {
     opacity: 0.5;
 }
 
+/* Student's Feedback Icon */
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon-left {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    font-size: 30px;
+    color: #AEAEAE;
+}
+
+.icon-right {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    font-size: 30px;
+}
+
 /* Company Logo */
 @media only screen and (max-width: 991px) {
     #company-logo {
